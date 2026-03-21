@@ -22,6 +22,19 @@ A handcrafted pastel prompt theme for [oh-my-posh](https://ohmyposh.dev), based 
 | 🌸 | **Yoru** *(night)* | Deep, moonlit background with soft sakura accents — default |
 | ☀️ | **Hiru** *(day)* | Warm ivory canvas with gentle pastel tones |
 
+<br>
+
+<table>
+<tr>
+<td align="center"><b>🌸 Yoru</b></td>
+<td align="center"><b>☀️ Hiru</b></td>
+</tr>
+<tr>
+<td><img src="assets/yozakura-yoru-oh-my-posh-preview.png" alt="Yozakura Yoru preview"/></td>
+<td><img src="assets/yozakura-hiru-oh-my-posh-preview.png" alt="Yozakura Hiru preview"/></td>
+</tr>
+</table>
+
 ---
 
 ## ✦ Installation
