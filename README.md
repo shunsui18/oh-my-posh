@@ -88,70 +88,93 @@ git clone https://github.com/shunsui18/oh-my-posh.git && cd oh-my-posh
 
 ## ✦ Manual Init Lines
 
-If you prefer to add the init line yourself, drop the relevant block into your shell's config file.
-Replace `THEME_URL` with one of:
+If you prefer to add the init line yourself, expand the flavor below and paste the block for your shell into its config file.
 
-| Flavor | URL |
-|---|---|
-| 🌸 Yoru | `https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json` |
-| ☀️ Hiru | `https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json` |
+<details>
+<summary><b>🌸 Yoru (night)</b></summary>
 
----
+<br>
 
-### bash — `~/.bashrc`
-
+**bash** — `~/.bashrc` or `~/.bash_profile`
 ```bash
-eval "$(oh-my-posh init bash --config 'THEME_URL')"
+eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')"
 ```
 
----
-
-### zsh — `~/.zshrc`
-
+**zsh** — `~/.zshrc` or `~/.zprofile`
 ```zsh
-eval "$(oh-my-posh init zsh --config 'THEME_URL')"
+eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')"
 ```
 
----
-
-### fish — `~/.config/fish/config.fish`
-
+**fish** — `~/.config/fish/config.fish`
 ```fish
-oh-my-posh init fish --config 'THEME_URL' | source
+oh-my-posh init fish --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json' | source
 ```
 
----
-
-### ksh / mksh — `~/.kshrc`
-
+**ksh / mksh** — `~/.kshrc` or `~/.mkshrc`
 ```ksh
-eval "$(oh-my-posh init ksh --config 'THEME_URL')"
+eval "$(oh-my-posh init ksh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')"
 ```
 
----
-
-### elvish — `~/.config/elvish/rc.elv`
-
+**elvish** — `~/.config/elvish/rc.elv`
 ```elvish
-eval (oh-my-posh init elvish --config 'THEME_URL')
+eval (oh-my-posh init elvish --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')
 ```
 
----
-
-### xonsh — `~/.xonshrc`
-
+**xonsh** — `~/.xonshrc`
 ```python
-execx($(oh-my-posh init xonsh --config 'THEME_URL'))
+execx($(oh-my-posh init xonsh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json'))
 ```
 
----
-
-### nushell — `~/.config/nushell/config.nu`
-
+**nushell** — `~/.config/nushell/config.nu`
 ```nu
-oh-my-posh init nu --config 'THEME_URL'
+oh-my-posh init nu --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json'
 source ~/.oh-my-posh.nu
 ```
+
+</details>
+
+<details>
+<summary><b>☀️ Hiru (day)</b></summary>
+
+<br>
+
+**bash** — `~/.bashrc` or `~/.bash_profile`
+```bash
+eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')"
+```
+
+**zsh** — `~/.zshrc` or `~/.zprofile`
+```zsh
+eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')"
+```
+
+**fish** — `~/.config/fish/config.fish`
+```fish
+oh-my-posh init fish --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json' | source
+```
+
+**ksh / mksh** — `~/.kshrc` or `~/.mkshrc`
+```ksh
+eval "$(oh-my-posh init ksh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')"
+```
+
+**elvish** — `~/.config/elvish/rc.elv`
+```elvish
+eval (oh-my-posh init elvish --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')
+```
+
+**xonsh** — `~/.xonshrc`
+```python
+execx($(oh-my-posh init xonsh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json'))
+```
+
+**nushell** — `~/.config/nushell/config.nu`
+```nu
+oh-my-posh init nu --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json'
+source ~/.oh-my-posh.nu
+```
+
+</details>
 
 ---
 
