@@ -88,24 +88,69 @@ git clone https://github.com/shunsui18/oh-my-posh.git && cd oh-my-posh
 
 ## ✦ Manual Init Lines
 
-If you prefer to add the init line yourself, use the raw theme URLs directly:
+If you prefer to add the init line yourself, drop the relevant block into your shell's config file.
+Replace `THEME_URL` with one of:
 
-**Yoru (night)**
+| Flavor | URL |
+|---|---|
+| 🌸 Yoru | `https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json` |
+| ☀️ Hiru | `https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json` |
+
+---
+
+### bash — `~/.bashrc`
+
 ```bash
-# bash / zsh / ksh
-eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')"
-
-# fish
-oh-my-posh init fish --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json' | source
+eval "$(oh-my-posh init bash --config 'THEME_URL')"
 ```
 
-**Hiru (day)**
-```bash
-# bash / zsh / ksh
-eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')"
+---
 
-# fish
-oh-my-posh init fish --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json' | source
+### zsh — `~/.zshrc`
+
+```zsh
+eval "$(oh-my-posh init zsh --config 'THEME_URL')"
+```
+
+---
+
+### fish — `~/.config/fish/config.fish`
+
+```fish
+oh-my-posh init fish --config 'THEME_URL' | source
+```
+
+---
+
+### ksh / mksh — `~/.kshrc`
+
+```ksh
+eval "$(oh-my-posh init ksh --config 'THEME_URL')"
+```
+
+---
+
+### elvish — `~/.config/elvish/rc.elv`
+
+```elvish
+eval (oh-my-posh init elvish --config 'THEME_URL')
+```
+
+---
+
+### xonsh — `~/.xonshrc`
+
+```python
+execx($(oh-my-posh init xonsh --config 'THEME_URL'))
+```
+
+---
+
+### nushell — `~/.config/nushell/config.nu`
+
+```nu
+oh-my-posh init nu --config 'THEME_URL'
+source ~/.oh-my-posh.nu
 ```
 
 ---
