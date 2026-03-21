@@ -60,7 +60,7 @@ done
 # ── header ────────────────────────────────────────────────────────────────────
 echo
 echo -e "${PETAL}${BOLD}  ╭─────────────────────────────────────╮"
-echo -e "  │   Yozakura · oh-my-posh installer  │"
+echo -e "  │   Yozakura · oh-my-posh installer   │"
 echo -e "  ╰─────────────────────────────────────╯${R}"
 echo
 
