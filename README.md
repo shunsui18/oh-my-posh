@@ -47,7 +47,7 @@ Install directly from this repository with a single command:
 bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/oh-my-posh/main/install.sh)
 ```
 
-> This runs with **Yoru** flavor by default.
+> Runs interactively — you will be prompted to choose a flavor.
 
 ---
 
