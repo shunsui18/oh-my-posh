@@ -44,7 +44,7 @@ A handcrafted pastel prompt theme for [oh-my-posh](https://ohmyposh.dev), based 
 Install directly from this repository with a single command:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/oh-my-posh/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/main/install.sh)
 ```
 
 > Runs interactively — you will be prompted to choose a flavor.
@@ -64,10 +64,10 @@ bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/oh-my-posh/main/in
 
 ```bash
 # Yoru (night)
-bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/oh-my-posh/main/install.sh) --theme yoru
+bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/main/install.sh) --theme yoru
 
 # Hiru (day)
-bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/oh-my-posh/main/install.sh) --theme hiru
+bash <(curl -fsSL https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/main/install.sh) --theme hiru
 ```
 
 ---
@@ -78,7 +78,7 @@ If you prefer to install by hand:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/shunsui18/oh-my-posh.git && cd oh-my-posh
+git clone https://github.com/shunsui18/yozakura-oh-my-posh.git && cd yozakura-oh-my-posh
 
 # 2. Run the installer
 ./install.sh --theme yoru
@@ -110,37 +110,37 @@ If you prefer to add the init line yourself, expand the flavor below and paste t
 
 **bash** — `~/.bashrc` or `~/.bash_profile`
 ```bash
-eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')"
+eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')"
 ```
 
 **zsh** — `~/.zshrc` or `~/.zprofile`
 ```zsh
-eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')"
+eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')"
 ```
 
 **fish** — `~/.config/fish/config.fish`
 ```fish
-oh-my-posh init fish --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json' | source
+oh-my-posh init fish --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-yoru.omp.json' | source
 ```
 
 **ksh / mksh** — `~/.kshrc` or `~/.mkshrc`
 ```ksh
-eval "$(oh-my-posh init ksh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')"
+eval "$(oh-my-posh init ksh --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')"
 ```
 
 **elvish** — `~/.config/elvish/rc.elv`
 ```elvish
-eval (oh-my-posh init elvish --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')
+eval (oh-my-posh init elvish --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-yoru.omp.json')
 ```
 
 **xonsh** — `~/.xonshrc`
 ```python
-execx($(oh-my-posh init xonsh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json'))
+execx($(oh-my-posh init xonsh --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-yoru.omp.json'))
 ```
 
 **nushell** — `~/.config/nushell/config.nu`
 ```nu
-oh-my-posh init nu --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-yoru.omp.json'
+oh-my-posh init nu --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-yoru.omp.json'
 source ~/.oh-my-posh.nu
 ```
 
@@ -153,37 +153,37 @@ source ~/.oh-my-posh.nu
 
 **bash** — `~/.bashrc` or `~/.bash_profile`
 ```bash
-eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')"
+eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')"
 ```
 
 **zsh** — `~/.zshrc` or `~/.zprofile`
 ```zsh
-eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')"
+eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')"
 ```
 
 **fish** — `~/.config/fish/config.fish`
 ```fish
-oh-my-posh init fish --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json' | source
+oh-my-posh init fish --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-hiru.omp.json' | source
 ```
 
 **ksh / mksh** — `~/.kshrc` or `~/.mkshrc`
 ```ksh
-eval "$(oh-my-posh init ksh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')"
+eval "$(oh-my-posh init ksh --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')"
 ```
 
 **elvish** — `~/.config/elvish/rc.elv`
 ```elvish
-eval (oh-my-posh init elvish --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')
+eval (oh-my-posh init elvish --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-hiru.omp.json')
 ```
 
 **xonsh** — `~/.xonshrc`
 ```python
-execx($(oh-my-posh init xonsh --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json'))
+execx($(oh-my-posh init xonsh --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-hiru.omp.json'))
 ```
 
 **nushell** — `~/.config/nushell/config.nu`
 ```nu
-oh-my-posh init nu --config 'https://raw.githubusercontent.com/shunsui18/oh-my-posh/refs/heads/main/yozakura-hiru.omp.json'
+oh-my-posh init nu --config 'https://raw.githubusercontent.com/shunsui18/yozakura-oh-my-posh/refs/heads/main/yozakura-hiru.omp.json'
 source ~/.oh-my-posh.nu
 ```
 
@@ -194,7 +194,7 @@ source ~/.oh-my-posh.nu
 ## ✦ File Structure
 
 ```
-oh-my-posh/
+yozakura-oh-my-posh/
 ├── yozakura-yoru.omp.json
 ├── yozakura-hiru.omp.json
 ├── install.sh
